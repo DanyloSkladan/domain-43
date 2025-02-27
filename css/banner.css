@@ -78,6 +78,7 @@
 @media (max-width: 550px) {
     .banner__box {
         padding: 30px 20px 30px 20px;
+        border-radius: 12px;
     }
 
     .banner__title {
