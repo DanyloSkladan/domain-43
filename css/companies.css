@@ -1,0 +1,28 @@
+.companies__title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.companies__item {
+    border-radius: 16px;
+    padding: 26px 32px;
+    background-color: #ffffff;
+}
+
+
+.companies__items {
+    display: flex;
+}
+
+@keyframes scrollCardsOneCompanies {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(var(--x));
+    }
+}
+
+#track-one {
+    animation: scrollCardsOneCompanies 50s linear infinite;
+}
