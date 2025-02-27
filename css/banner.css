@@ -28,3 +28,84 @@
     max-width: 620px;
     margin-bottom: 30px;
 }
+
+@media (max-width: 1180px) {
+    .banner__box {
+        padding: 40px 40px 30px 30px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .banner__box {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .banner__left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0;
+    }
+
+    .banner__title {
+        text-align: center;
+    }
+
+    .banner__description {
+        text-align: center;
+    }
+
+    .banner__img {
+        width: fit-content;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 850px) {
+    .banner__title-icon svg{
+        width: 40px;
+        height: auto;
+    }
+}
+
+@media (max-width: 720px) {
+    .banner__img img{
+        width: 350px;
+    }
+}
+
+@media (max-width: 550px) {
+    .banner__box {
+        padding: 30px 20px 30px 20px;
+    }
+
+    .banner__title {
+        margin-bottom: 10px;
+    }
+
+    .banner__description {
+        margin-bottom: 10px;
+    }
+
+    .banner__img img {
+        width: 280px;
+    }
+}
+
+@media (max-width: 390px) {
+    .banner__title-icon svg {
+        width: 25px;
+        height: auto;
+    }
+
+    .banner__img img {
+        width: 260px;
+    }
+}
+
+@media (max-width: 350px) {
+    .banner__img img {
+        width: 240px;
+    }
+}

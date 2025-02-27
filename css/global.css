@@ -206,6 +206,10 @@ h6 {
         line-height: 21px !important;
     }
 
+    .button {
+        padding: 8px 15px !important;
+    }
+
     .link {
         padding: 8px 15px !important;
         font-size: 14px !important;
