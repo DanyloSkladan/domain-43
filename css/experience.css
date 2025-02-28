@@ -17,6 +17,9 @@
 }
 
 .experience__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 2px solid #1a1a24;
     border-radius: 26px;
     padding: 22px 0 18px 24px;
@@ -33,4 +36,98 @@
 
 .experience__description {
     margin-bottom: 30px;
+}
+
+@media (max-width: 1090px) {
+    .experience__description {
+        margin-bottom: 20px;
+    }
+
+    .experience__left {
+        padding: 34px 24px 20px 24px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .experience__box {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .experience__right {
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    .experience__left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experience__title {
+        max-width: 600px;
+        text-align: center;
+    }
+
+    .experience__description {
+        text-align: center;
+    }
+}
+
+@media (max-width: 850px) {
+    .experience__img-box img {
+        width: 350px;
+        height: auto;
+    }
+}
+
+@media (max-width: 550px) {
+    .experience__box {
+        gap: 20px;
+    }
+
+    .experience__left,
+    .experience__right {
+        padding: 20px;
+        border-radius: 12px;
+    }
+
+    .experience__img-box img {
+        width: 250px;
+        height: auto;
+    }
+
+    .experience__subtitle {
+        margin-bottom: 10px;
+    }
+
+    .experience__title {
+        margin-bottom: 10px;
+    }
+
+    .experience__description {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 450px) {
+    .experience__right {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 350px) {
+    .experience__left, .experience__right {
+        padding: 20px 10px;
+    }
+
+
+    .experience__img-box img {
+        width: 230px;
+        height: auto;
+    }
+
 }
