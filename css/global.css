@@ -101,12 +101,14 @@ h6 {
     font-weight: 400;
     font-size: 18px;
     display: flex;
+    align-items: center;
     gap: 12px;
     letter-spacing: 0.06em;
     color: #1a1a24;
     border-radius: 26px;
     padding: 12px 24px;
     background-color: #f8f7fd;
+    width: fit-content;
 }
 
 .title {
@@ -146,9 +148,9 @@ h6 {
 
 .link {
     display: flex;
+    gap: 17px;
     align-items: center;
     border-radius: 12px;
-    padding: 10px 24px;
     font-weight: 500;
     font-size: 17px;
     color: #000510;
@@ -157,8 +159,27 @@ h6 {
     width: fit-content;
 }
 
-.link:hover {
-    background-color:  rgba(153, 227, 158, 0.7);
+.link-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #1a1a24;
+    border-radius: 33px;
+    width: 45px;
+    height: 45px;
+    transition: background-color .3s ease-in-out;
+}
+
+.link:hover .link-icon {
+    background-color: #000510;
+}
+
+.link .link-icon svg path {
+    transition: fill .3s ease-in-out;
+}
+
+.link:hover .link-icon svg path {
+    fill: #ffffff;
 }
 
 .animate {

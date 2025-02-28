@@ -1,0 +1,36 @@
+.experience__box {
+    display: grid;
+    grid-template-columns: 1fr 448px;
+    gap: 30px;
+}
+
+.experience__img-box img {
+    width: 400px;
+    height: auto;
+}
+
+.experience__left {
+    border: 2px solid #1a1a24;
+    border-radius: 26px;
+    padding: 34px 24px 6px 24px;
+    background-color: #fff;
+}
+
+.experience__right {
+    border: 2px solid #1a1a24;
+    border-radius: 26px;
+    padding: 22px 0 18px 24px;
+    background-color: #fff;
+}
+
+.experience__subtitle {
+    margin-bottom: 20px;
+}
+
+.experience__title {
+    margin-bottom: 20px;
+}
+
+.experience__description {
+    margin-bottom: 30px;
+}
