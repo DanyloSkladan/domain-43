@@ -1,0 +1,109 @@
+.trade__title {
+    text-align: center;
+}
+
+.trade__img img {
+    width: 400px;
+    height: auto;
+}
+
+.trade__box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trade__right {
+    width: 100%;
+    max-width: 580px;
+}
+
+.trade__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 30px;
+}
+
+.trade__item {
+    border: 1px solid #1a1a24;
+    border-radius: 26px;
+    padding: 22px 20px;
+    background-color: #fff;
+}
+
+.trade__icon-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trade__icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-end;
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.trade__item-buy {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background-color: #efecfe;
+    width: fit-content;
+    padding: 5px 16px;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #8660db;
+}
+
+.trade__item-trade {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 16px;
+    width: fit-content;
+    background-color: #e1f8eb;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 20px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #33a274;
+}
+
+.trade__item-title {
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.06em;
+    color: #1a1a24;
+    margin-bottom: 20px;
+}
+
+.trade__item-title span {
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 0.06em;
+    color: #888493;
+}
+
+.trade__item-value {
+    display: flex;
+}
+
+.trade__item-price {
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    color: #392f46;
+}
+
+.trade__item-percent.plus {
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    color: #33a274;
+}
